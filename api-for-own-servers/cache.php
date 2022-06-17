@@ -48,3 +48,4 @@ class Cache {
         file_put_contents($this->cache_file, json_encode($data, JSON_FORCE_OBJECT));
     }
 }
+enable local
